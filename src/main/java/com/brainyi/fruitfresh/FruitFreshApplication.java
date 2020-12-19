@@ -10,7 +10,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
  */
 @SpringBootApplication
 @EnableOpenApi
-@MapperScan("com.baomidou.mybatisplus.samples.quickstart.mapper")
+@MapperScan("com.brainyi.fruitfresh.mapper")
 public class FruitFreshApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FruitFreshApplication.class, args);
